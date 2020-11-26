@@ -24,17 +24,6 @@ F 3 "" H 5000 3800 50  0001 C CNN
 	1    5000 3700
 	-1   0    0    -1  
 $EndComp
-$Comp
-L pin_headers:1x8 CN2
-U 1 1 5FBFEFE7
-P 6700 3600
-F 0 "CN2" H 6928 3555 50  0000 L CNN
-F 1 "1x8" H 6700 4000 50  0001 C CNN
-F 2 "modular-jack:RJHSE-5080" H 6700 3900 50  0001 C CNN
-F 3 "" H 6700 3700 50  0001 C CNN
-	1    6700 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 4100 5400 4100
 Wire Wire Line
@@ -84,4 +73,15 @@ Text Notes 4900 3300 2    50   ~ 0
 amiga
 Text Notes 6800 3200 0    50   ~ 0
 RJ45
+$Comp
+L pin_headers:1x8 CN2
+U 1 1 5FBFEFE7
+P 6700 3700
+F 0 "CN2" H 6792 3177 50  0000 C CNN
+F 1 "1x8" H 6700 4100 50  0001 C CNN
+F 2 "modular-jack:RJHSE-5080" H 6700 4000 50  0001 C CNN
+F 3 "" H 6700 3800 50  0001 C CNN
+	1    6700 3700
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
