@@ -1,4 +1,4 @@
-75138638156157
+78366146574157
 JST
 xh-2
 
@@ -174,6 +174,13 @@ DB9
 0
 11
 10
+connectors
+DB9-slim
+
+
+0
+9
+9
 diodes
 SMB
 
@@ -328,3 +335,10 @@ switch
 0
 3
 3
+switch
+200UDP1T1A1M2RE
+
+
+0
+6
+6
