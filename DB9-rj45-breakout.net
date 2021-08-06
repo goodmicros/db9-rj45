@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/netl/projects/DB9-rj45-breakout/DB9-rj45-breakout.sch)
-    (date "ke 14. huhtikuuta 2021 21.14.32")
+    (date "pe  6. elokuuta 2021 12.09.59")
     (tool "Eeschema 5.1.5+dfsg1-2build2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref CN1)
       (value 1x9)
-      (footprint connectors:DB9-slim)
+      (footprint connectors:DB9-slim-female)
       (libsource (lib pin_headers) (part 1x9) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5FBFEB21))
